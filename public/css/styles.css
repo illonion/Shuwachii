@@ -1,0 +1,11 @@
+nav, footer {
+    background-color:rgb(67,55,59);
+    height:70px;
+    text-align:center;
+}
+
+footer {
+    position:absolute;
+    width:100%;
+    bottom:0px;
+}
