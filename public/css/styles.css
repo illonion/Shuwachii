@@ -1,11 +1,66 @@
-nav, footer {
+/* For Every Web Page*/
+
+@font-face {
+    font-family: Gadugi;
+    src: url("fonts/gadugi.ttf");
+}
+
+body {
+    height:100%;
+    width:100%;
+    font-family: Gadugi;
+}
+
+header, footer {
     background-color:rgb(67,55,59);
     height:70px;
-    text-align:center;
+    text-align: center;
+    color:white;
 }
 
 footer {
     position:absolute;
-    width:100%;
     bottom:0px;
+    width:100%;
+}
+
+.main-body {
+    background-image:url("images/bg.png");
+    background-color:rgb(245,242,243);
+    position:absolute;
+    bottom:70px;
+    top:70px;
+    text-align: center;
+    width:100%;
+}
+
+#logo {
+    position:absolute;
+    bottom:0;
+    left:5px;
+}
+
+/* For Home Page*/
+
+#hota {
+    max-width:50%;
+    width:700px;
+    height:auto;
+    position:absolute;
+    bottom:0;
+    left:50%;
+}
+
+#home #valentineJap {
+    position:absolute;
+    top:45%;
+    left:5%;
+    font-size:80px;
+    color:rgb(157,122,135)
+}
+
+footer #copyright {
+    position:absolute;
+    bottom:40%;
+    right:20px;
 }

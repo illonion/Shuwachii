@@ -1,3 +1,3 @@
 $(window).load(function () {
-    $('body').sakura();
+    $('.main-body').sakura();
 });
